@@ -1,5 +1,7 @@
 //your JS code here. If required.
-function functionName(){
-	alert(argument.callee.name);
+function functionName() {
+    alert(functionName.name); 
 }
+
+// Example usage
 functionName();
